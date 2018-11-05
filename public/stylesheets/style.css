@@ -105,8 +105,30 @@
 .card {
    padding: 10px;
    border-radius: 5px;
-   margin: 10px;
+   margin: 23px;
    margin-bottom: 15px;
    background-color: #eee !important;
 }
 
+.chart-title {
+   text-align: center !important;
+   display: block;
+}
+
+h1, h2 {
+   text-align: center;
+}
+
+.table-1 {
+   width: 47%;
+   margin: 5px;
+}
+.table-2 {
+   width: 47%;
+   margin: 5px;
+}
+
+header {
+   background: #ccc;
+   height: 100px;
+}

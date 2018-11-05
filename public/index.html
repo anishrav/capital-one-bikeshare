@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Layouts &raquo; Two-and-One</title>
+	 <meta name='title' content='LA Bikeshare Data Analysis'>
+  <meta name='description' content='Anish Ravipati CapitalOne Technology Summit Submission'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.3.2/holder.min.js" type="text/javascript"></script>
@@ -10,49 +11,17 @@
 		Holder.add_theme("white", { background:"#fff", foreground:"#a7a7a7", size:10 });
 	</script>
 
-	<!-- keen-analysis@1.2.2 -->
-	<script src="https://d26b395fwzu5fz.cloudfront.net/keen-analysis-1.2.2.js" type="text/javascript"></script>
-
-	<!-- keen-dataviz@1.1.3 -->
-	<link href="https://d26b395fwzu5fz.cloudfront.net/keen-dataviz-1.1.3.css" rel="stylesheet" />
-	<script src="https://d26b395fwzu5fz.cloudfront.net/keen-dataviz-1.1.3.js" type="text/javascript"></script>  
-
 	<!--bootstrap-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-	<!-- Dashboard -->
-	<link rel="stylesheet" type="text/css" href="../../assets/css/keen-dashboards.css" />
 	<link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.min.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<body class="keen-dashboard" style="padding-top: 80px;">
-
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="../">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class="navbar-brand" href="./">Dashboard Starter UI</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-left">
-					<li><a href="https://keen.io">Home</a></li>
-					<li><a href="https://keen.io/team">Team</a></li>
-					<li><a href="https://github.com/keenlabs/dashboards/tree/gh-pages/layouts/two-and-one">Source</a></li>
-					<li><a href="https://groups.google.com/forum/#!forum/keen-io-devs">Community</a></li><li><a href="http://stackoverflow.com/questions/tagged/keen-io?sort=newest&pageSize=15">Technical Support</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
+<body style="padding-top: 80px;">
+<header><p>My name is Anish Ravipati, and I created this web application using Chartist.js, Bootstrap, and JQuery. The back-end data analysis work was done in Python using pandas, matplotlib, and numpy. 
+<h1>Los Angeles Bike Share Data Analysis</h1>
+	<h2>Trends in Dataset</h2>
 	<div class="container-fluid">
 		<div class="row">
 
@@ -113,34 +82,163 @@
 
 		</div>
 
+		<h2>Important Statistics</h2>
 		<div class="row">
-		<div class="card" style="width: 18rem;">
-			<img class="card-img-top" src="images/6.88.png" alt="6.88km logo">
-			<div class="card-body">
-				<h5 class="card-title">Average Distance Traveled</h5>
-				<p class="card-text">Computed using Haversine formula and projections based on ride duration</p>
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/6.88.png" alt="6.88km logo">
+				<div class="card-body">
+					<h5 class="card-title">Average Distance Traveled</h5>
+					<p class="card-text">Computed using Haversine formula and projections based on ride duration</p>
+				</div>
 			</div>
+
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/3069.png" alt="3069 station logo">
+				<div class="card-body">
+					<h5 class="card-title">Most Popular Starting Station</h5>
+					<p class="card-text">5138 rides began at this station.</p>
+				</div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/3005.png" alt="3005 station logo">
+				<div class="card-body">
+					<h5 class="card-title">Most Popular Ending Station</h5>
+					<p class="card-text">6262 rides ended at this station.</p>
+				</div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/90821.png" alt="3005 station logo">
+				<div class="card-body">
+					<h5 class="card-title">Number of Regular Ride Sharers</h5>
+					<p class="card-text">Over 90,000 residents of LA include ride sharing as part of their regular commute.</p>
+				</div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/77532.png" alt="3005 station logo">
+				<div class="card-body">
+					<h5 class="card-title">Number of Monthly Pass One Way Rides</h5>
+					<p class="card-text">Most likely commuters, these monthly pass holders compose a plurality of the dataset's rides</p>
+				</div>
+			</div>
+
 		</div>
 
-		<div class="card" style="width: 18rem;">
-			<img class="card-img-top" src="images/3069.png" alt="3069 station logo">
-			<div class="card-body">
-				<h5 class="card-title">Most Popular Starting Station</h5>
-				<p class="card-text">5138 rides began at this station.</p>
-			</div>
+		<h2>Tables by Seasons and Combinations</h2>
+		<div class="row">
+			<table class="table-1 table-striped">
+				<thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col">Summer</th>
+						<th scope="col">Fall</th>
+						<th scope="col">Winter</th>
+						<th scope="col">Spring</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Distance average (km)</th>
+						<td>13.18</td>
+						<td>5.90</td>
+						<td>2.78</td>
+						<td>3.20</td>
+					</tr>
+					<tr>
+						<th scope="row">Duration average (s)</th>
+						<td>1449.95</td>
+						<td>1479.69</td>
+						<td>1696.23</td>
+						<td>1800.97</td>
+					</tr>
+					<tr>
+						<th scope="row">Monthly Pass Holders</th>
+						<td>22,548</td>
+						<td>30,789</td>
+						<td>19,516</td>
+						<td>8,451</td>
+					</tr>
+					<tr>
+						<th scope="row">Walk-up Riders</th>
+						<td>9,772</td>
+						<td>18,071</td>
+						<td>8,949</td>
+						<td>4,432</td>
+					</tr>
+					<tr>
+						<th scope="row">Flex Pass Holders</th>
+						<td>3,253</td>
+						<td>3,345</td>
+						<td>1,896</td>
+						<td>1,023</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="table-2 table-striped">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Trip Route Category</th>
+						<th scope="col">Passholder Type</th>
+						<th scope="col">Count</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">0</th>
+						<td>One Way</td>
+						<td>Flex Pass</td>
+						<td>9034</td>
+					</tr>
+					<tr>
+						<th scope="row">1</th>
+						<td>One Way</td>
+						<td>Monthly Pass</td>
+						<td>77532</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>One Way</td>
+						<td>Staff Annual</td>
+						<td>299</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>One Way</td>
+						<td>Walk-8up</td>
+						<td>32777</td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<td>Round Trip</td>
+						<td>Flex Pass</td>
+						<td>483</td>
+					</tr>
+					<tr>
+						<th scope="row">5</th>
+						<td>Round Trip</td>
+						<td>Monthly Pass</td>
+						<td>3772</td>
+					</tr>
+					<tr>
+						<th scope="row">6</th>
+						<td>Round Trip</td>
+						<td>Staff Annual</td>
+						<td>83</td>
+					</tr>
+					<tr>
+						<th scope="row">7</th>
+						<td>Round Trip</td>
+						<td>Walk-up</td>
+						<td>8447</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 
-		<div class="card" style="width: 18rem;">
-			<img class="card-img-top" src="images/3005.png" alt="3005 station logo">
-			<div class="card-body">
-				<h5 class="card-title">Most Popular Ending Station</h5>
-				<p class="card-text">6262 rides ended at this station.</p>
-			</div>
-		</div>
-</div>
-	</div>
-	<div class="container-fluid">
-		<p class="small text-muted">Built with &#9829; by <a href="https://keen.io">Keen IO</a></p>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.11.0/chartist.js"></script>

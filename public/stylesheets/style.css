@@ -113,6 +113,7 @@
 .chart-title {
    text-align: center !important;
    display: block;
+   font-weight: bold;
 }
 
 h1, h2 {

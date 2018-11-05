@@ -1,4 +1,4 @@
-# capital-one-bikeshare
+# Capital One Bikeshare Web Application
 
 I used pandas, numpy, and matplotlib to analyze the data in Python. Prior to the challenge I was familiar with data analysis tools in Python on face, but never had to apply them in a rigorous context with a large data set. This challenge enabled me to put my knowledge of data science to the test and I learned a great deal about using these data science libraries in Python through the experience. 
 
